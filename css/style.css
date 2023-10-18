@@ -87,17 +87,18 @@ a {
 }
 
 .news__info{
-    margin: 0px 300px 30px 300px;
-    padding: 10px 0 30px;
+    padding-bottom: 20px;
+    margin: 10px 100px;
     border-top: solid 2px;
     border-bottom: solid 2px;
     display: inline-block;
+    text-align: center;
 }
 
 .news__info--text{
     display: inline-block;
     border-bottom: solid 0.5px;
-    padding-right: 340px;
+    padding-right: 200px;
     line-height: 3;
 }
 
@@ -269,6 +270,7 @@ a {
 
 .card__content{
     padding: 15px 15px;
+    box-sizing: border-box;
 }
 
 .card__text{
@@ -282,7 +284,7 @@ a {
 }
 
 .card__date{
-    padding-right: 60px;
+    padding-right: 30px;
 }
 
 .list__btn {
@@ -404,5 +406,4 @@ a {
 }
 .copyright{
     line-height: 4;
-
 }
