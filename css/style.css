@@ -243,7 +243,8 @@ a {
 .blog__flex{
     display: flex;
     justify-content: space-between;
-    margin: 10px 280px;
+    margin: 10px auto;
+    width: 80%;
 }
 
 .blog__card{
@@ -269,8 +270,8 @@ a {
 }
 
 .card__content{
-    padding: 15px 15px;
-    box-sizing: border-box;
+    margin: 15px auto;
+    padding: 10px;
 }
 
 .card__text{
