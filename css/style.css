@@ -333,35 +333,33 @@ a {
 }
 
 .info{
-    display: inline-block;
     margin: 20px auto;
     color: white;
     font-size: 22px;
     display: flex;
-    justify-content: space-between;
-    transform: translate
+}
+a h2{
+    text-align: center;
 }
 
 .info__ttl{
     background-image: url("../img/recruit.png");
-    width: 300px;
-    height: auto;
-    display: inline-block;
-    padding: 140px 300px;
+    padding: 140px;
     background-repeat: no-repeat;
     background-size: auto;
-    transform: translate(20px 50px)
 }
+
 
 .interview__ttl {
     background-image: url("../img/interview.png");
-    width: 300px;
-    height: auto;
-    display: inline-block;
-    padding: 140px 300px;
+    padding: 140px;
     background-repeat: no-repeat;
     background-size: auto;
-    transform: translate(20px 50px)
+}
+
+a{
+    width: 70%;
+    height: auto;
 }
 .footer{
     text-align: center;
