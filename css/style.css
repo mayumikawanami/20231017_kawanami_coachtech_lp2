@@ -333,32 +333,35 @@ a {
 }
 
 .info{
-    position: relative;
+    display: inline-block;
+    margin: 20px auto;
     color: white;
     font-size: 22px;
-}
-.info__img{
     display: flex;
     justify-content: space-between;
-    margin: 70px auto;
-    z-index: -1;
-}
-
-.info__img img{
-    width: 50%;
-    height: auto;
+    transform: translate
 }
 
 .info__ttl{
-    position: absolute;
-    left: 350px;
-    bottom: -220px;
+    background-image: url("../img/recruit.png");
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    padding: 140px 300px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    transform: translate(20px 50px)
 }
 
 .interview__ttl {
-    position: absolute;
-    right: 320px;
-    bottom: -220px;
+    background-image: url("../img/interview.png");
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    padding: 140px 300px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    transform: translate(20px 50px)
 }
 .footer{
     text-align: center;
@@ -392,7 +395,7 @@ a {
 }
 .inquiry__btn::before{
     content: "";
-    background: url(/img/mailicon.svg);
+    background: url(../img/mailicon.svg);
     vertical-align: middle;
     width: 25px;
     height: 25px;
