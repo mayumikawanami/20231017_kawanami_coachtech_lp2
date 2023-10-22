@@ -75,24 +75,24 @@ a {
     font-family: 'Gloria Hallelujah',cursive;
     font-size: 15px;
     color: rgb(155, 7, 116);
-    margin: 100px auto 0 300px;
+    margin: 100px auto 0 250px;
 }
 
 .news__ttl{
     display:inline-block;
     font-size: 20px;
-    padding-right: 600px;
+    padding-right: 500px;
     line-height: 3;
-    margin: 0px auto 0 300px;
+    margin: 0px auto 0 250px;
 }
 
 .news__info{
     padding-bottom: 20px;
-    margin: 10px 100px;
+    margin: 10px auto;
     border-top: solid 2px;
     border-bottom: solid 2px;
-    display: inline-block;
     text-align: center;
+    width: 60%;
 }
 
 .news__info--text{
@@ -112,7 +112,7 @@ a {
 
 .about{
     background-color: rgb(246, 241, 241);
-    margin: 70px;
+    margin: 70px 0;
     padding-bottom: 20px;
 }
 .about__top{
@@ -153,21 +153,21 @@ a {
     font-size: 15px;
     color: rgb(155, 7, 116);
     line-height: 3;
-    padding-left: 280px;
+    padding-left: 150px;
 }
 
 .service__ttl{
     display: inline-block;
     font-size: 20px;
-    padding-left: 280px;
-    padding-bottom: 20px;
+    padding-left: 150px;
 }
 
 .service__detail{
     display: grid;
     grid-template-rows: 200px 200px;
     grid-template-columns: 1fr 1fr;
-    margin: 50px 300px;
+    margin: 50px auto;
+    width: 80%;
 }
 
 .service__detail div{
@@ -229,21 +229,19 @@ a {
     font-size: 15px;
     color: rgb(155, 7, 116);
     line-height: 3;
-    margin-top: 30px;
-    padding-left: 280px;
+    padding-left: 150px;
 }
 
 .blog__ttl {
     display: inline-block;
     font-size: 20px;
-    padding-left: 280px;
-    padding-bottom: 20px;
+    padding-left: 150px;
 }
 
 .blog__flex{
     display: flex;
     justify-content: space-between;
-    margin: 10px auto;
+    margin: 30px auto;
     width: 80%;
 }
 
@@ -270,8 +268,8 @@ a {
 }
 
 .card__content{
-    margin: 15px auto;
-    padding: 10px;
+    margin: 25px auto;
+    padding: 0 10px;
 }
 
 .card__text{
@@ -306,13 +304,13 @@ a {
     color: rgb(155, 7, 116);
     line-height: 3;
     margin-top: 30px;
-    padding-left: 370px;
+    padding-left: 300px;
 }
 
 .company__ttl {
     display: inline-block;
     font-size: 20px;
-    padding-left: 370px;
+    padding-left: 300px;
     padding-bottom: 20px;
 }
 
