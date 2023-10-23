@@ -75,15 +75,14 @@ a {
     font-family: 'Gloria Hallelujah',cursive;
     font-size: 15px;
     color: rgb(155, 7, 116);
-    margin: 100px auto 0 250px;
+    margin: 100px auto 0 200px;
 }
 
 .news__ttl{
     display:inline-block;
     font-size: 20px;
-    padding-right: 500px;
     line-height: 3;
-    margin: 0px auto 0 250px;
+    margin: 0px auto 0 200px;
 }
 
 .news__info{
@@ -91,14 +90,11 @@ a {
     margin: 10px auto;
     border-top: solid 2px;
     border-bottom: solid 2px;
-    text-align: center;
     width: 60%;
 }
 
 .news__info--text{
-    display: inline-block;
     border-bottom: solid 0.5px;
-    padding-right: 200px;
     line-height: 3;
 }
 
@@ -132,7 +128,7 @@ a {
 .about__flex{
     display: flex;
     justify-content: space-between;
-    margin: 10px 210px;
+    margin: 10px 100px;
 }
 .about__img{
     display: inline-block;
@@ -147,6 +143,9 @@ a {
 .about__text{
     line-height: 1.5;
     font-size: 15px;
+    display: inline-block;
+    width: 40%;
+    height: auto;
 }
 .service__top{
     font-family: 'Gloria Hallelujah', cursive;
@@ -278,6 +277,7 @@ a {
 
 .tag{
     display: flex;
+    justify-content: space-between;
     font-size: 14px;
     padding-top: 30px;
 }
@@ -346,7 +346,7 @@ a h2{
     background-image: url("../img/recruit.png");
     padding: 140px;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
 
 
@@ -354,7 +354,7 @@ a h2{
     background-image: url("../img/interview.png");
     padding: 140px;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
 
 a{
